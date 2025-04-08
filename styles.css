@@ -25,6 +25,11 @@
     font-size: large;
 }
 
+#navbar a {
+    color: white;
+    text-decoration: none;
+}
+
 #nombreyrol {
     display: flex;
     flex-direction: column;
