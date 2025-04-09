@@ -184,7 +184,7 @@ a:hover {
     width: 60%;
     background-color: black;
     margin: 20px;
-    border-radius: 1%;
+    border-radius: 2dvh;
     align-items: center;
     justify-content: space-around;
     transition: filter 0.3s, transform 0.3s;
@@ -192,6 +192,11 @@ a:hover {
 
 .card:hover {
     transform: scale(1.1);
+}
+
+.card p{
+    color: #eee;
+    padding: 10px;
 }
 
 .cardImage {
