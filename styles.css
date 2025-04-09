@@ -167,7 +167,7 @@ a:hover {
     justify-self: center;
     justify-items: center;
     align-items: center;
-    background-color: aqua;
+    background-color: brown;
     text-align: center;
     width: 80%;
     height: 100%;
@@ -230,6 +230,7 @@ a:hover {
     height: 80%;
     width: 100%;
     max-width: 400px;
+    border-radius: 2dvh;
     background-color: cadetblue;
     padding: 10px;
     margin: 30px;
