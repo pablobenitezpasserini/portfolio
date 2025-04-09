@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #head {
@@ -26,8 +27,20 @@
 }
 
 #navbar a {
-    color: white;
+    color: #90caf9;
     text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+a:hover {
+    color: #64b5f6;
+    text-decoration: underline;
+}
+
+#navbar a:hover{
+    background-color: #2a2a2a;
 }
 
 #nombreyrol {
@@ -37,6 +50,7 @@
     justify-content: center;
     height: 70vh;
     background-color: rgb(2, 2, 41);
+    text-align: center;
 }
 
 #nombreyrol h1, h3{
@@ -130,7 +144,7 @@
 #bloqueProyectos {
     display: grid;
     grid-template-rows: 1fr 3fr;
-    height: 60vh;
+    height: 70vh;
     row-gap: 10px;
     align-items: center;
     justify-content: center;
@@ -170,6 +184,7 @@
     width: 60%;
     background-color: black;
     margin: 20px;
+    border-radius: 1%;
     align-items: center;
     justify-content: space-around;
     transition: filter 0.3s, transform 0.3s;
