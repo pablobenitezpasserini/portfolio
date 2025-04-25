@@ -18,12 +18,20 @@ html, body {
     color: #F6F1D1;
 }
 
+#btn-cv{
+    margin-top: 20px;
+}
+
 #bloqueSobreMi{
     background-color: #D8E1E9;
 }
 
 #bloqueHabilidades{
     background-color: #C5D5EA;
+}
+
+#footer{
+    background-color: #7392B7;
 }
 
 .redesImg {
